@@ -6,6 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
         HttpClient client = HttpClient.newHttpClient();
-        client.executor().execute(() -> System.out.println("Incubator Wraning??"));
+        client.executor().execute(() -> System.out.println("Incubator Warning??"));
     }
 }
